@@ -34,9 +34,9 @@ def politica():
 def termos():
     return render_template('termos.html')
 
-@app.route('/cards')
-def carrossel():
-    return render_template('carrossel.html')
+@app.route('/social')
+def cards():
+    return render_template('cards.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
